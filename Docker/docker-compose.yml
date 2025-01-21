@@ -1,4 +1,4 @@
-version: '3.8'
+
 
 services:
   mqtt:
@@ -15,7 +15,7 @@ services:
     restart: always
 
   influxdb:
-    image: influxdb:latest
+    image: influxdb:1.11.8
     container_name: influxdb
     ports:
       - "8086:8086"  # API HTTP de InfluxDB

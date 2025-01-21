@@ -3,8 +3,8 @@ datasources:
   - name: mqtt_consumer
     type: influxdb
     access: proxy
-    url: http://localhost:8086
+    url: http://influxdb:8086
     isDefault: true
     database: piscina
-    user: admin
-    password: admin123
+    # user: admin
+    # password: admin123
