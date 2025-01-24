@@ -4165,3 +4165,127 @@ To fix this, use `chmod 0700 /mosquitto/config/passwd`.
 1737473952: New client connected from 192.168.65.1:46047 as ESP32_Client (p2, c1, k15, u'admin').
 1737473955: New connection from 172.18.0.5:36510 on port 1885.
 1737473955: New client connected from 172.18.0.5:36510 as Telegraf-Consumer-BMgg6 (p2, c1, k60, u'admin').
+1737474461: Client Telegraf-Consumer-BMgg6 disconnected.
+1737474461: mosquitto version 2.0.20 terminating
+1737474461: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737474461: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737483143: mosquitto version 2.0.20 starting
+1737483143: Config loaded from /mosquitto/config/mosquitto.conf.
+1737483143: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1737483143: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+1737483143: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+1737483143: Opening ipv4 listen socket on port 1885.
+1737483143: Opening ipv6 listen socket on port 1885.
+1737483143: mosquitto version 2.0.20 running
+1737483147: New connection from 172.18.0.4:57648 on port 1885.
+1737483147: New client connected from 172.18.0.4:57648 as Telegraf-Consumer-SJKLE (p2, c1, k60, u'admin').
+1737483147: New connection from 192.168.65.1:48989 on port 1885.
+1737483147: New client connected from 192.168.65.1:48989 as ESP32_Client (p2, c1, k15, u'admin').
+1737483369: Client Telegraf-Consumer-SJKLE disconnected.
+1737483369: mosquitto version 2.0.20 terminating
+1737483369: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737483369: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737654621: mosquitto version 2.0.20 starting
+1737654621: Config loaded from /mosquitto/config/mosquitto.conf.
+1737654621: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1737654621: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+1737654621: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+1737654621: Opening ipv4 listen socket on port 1885.
+1737654621: Opening ipv6 listen socket on port 1885.
+1737654621: mosquitto version 2.0.20 running
+1737654625: New connection from 172.18.0.5:60706 on port 1885.
+1737654625: New client connected from 172.18.0.5:60706 as Telegraf-Consumer-svK1n (p2, c1, k60, u'admin').
+1737654656: New connection from 192.168.65.1:18617 on port 1885.
+1737654656: New client connected from 192.168.65.1:18617 as ESP32_Client (p2, c1, k15, u'admin').
+1737654687: Client Telegraf-Consumer-svK1n disconnected.
+1737654687: mosquitto version 2.0.20 terminating
+1737654687: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737654687: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737654821: mosquitto version 2.0.20 starting
+1737654821: Config loaded from /mosquitto/config/mosquitto.conf.
+1737654821: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1737654821: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+1737654821: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+1737654821: Opening ipv4 listen socket on port 1885.
+1737654821: Opening ipv6 listen socket on port 1885.
+1737654821: mosquitto version 2.0.20 running
+1737654822: New connection from 172.18.0.4:50434 on port 1885.
+1737654822: New client connected from 172.18.0.4:50434 as Telegraf-Consumer-zBTbt (p2, c1, k60, u'admin').
+1737654823: New connection from 192.168.65.1:50279 on port 1885.
+1737654823: New client connected from 192.168.65.1:50279 as ESP32_Client (p2, c1, k15, u'admin').
+1737656622: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737656622: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737658423: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737658423: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737660224: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737660224: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737662025: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737662025: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737663826: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737663826: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737665627: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737665627: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737666429: Client Telegraf-Consumer-zBTbt disconnected.
+1737666429: mosquitto version 2.0.20 terminating
+1737666429: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737666429: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737666570: mosquitto version 2.0.20 starting
+1737666570: Config loaded from /mosquitto/config/mosquitto.conf.
+1737666570: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1737666570: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+1737666570: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+1737666570: Opening ipv4 listen socket on port 1885.
+1737666570: Opening ipv6 listen socket on port 1885.
+1737666570: mosquitto version 2.0.20 running
+1737666571: New connection from 172.18.0.4:52116 on port 1885.
+1737666571: New client connected from 172.18.0.4:52116 as Telegraf-Consumer-ou4Dw (p2, c1, k60, u'admin').
+1737666714: Client Telegraf-Consumer-ou4Dw disconnected.
+1737666714: mosquitto version 2.0.20 terminating
+1737666714: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737666714: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737666718: mosquitto version 2.0.20 starting
+1737666718: Config loaded from /mosquitto/config/mosquitto.conf.
+1737666718: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1737666718: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+1737666718: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+1737666718: Opening ipv4 listen socket on port 1885.
+1737666718: Opening ipv6 listen socket on port 1885.
+1737666718: mosquitto version 2.0.20 running
+1737666720: New connection from 172.18.0.5:50130 on port 1885.
+1737666720: New client connected from 172.18.0.5:50130 as Telegraf-Consumer-sD28d (p2, c1, k60, u'admin').
+1737666743: New connection from 192.168.65.1:46270 on port 1885.
+1737666743: New client connected from 192.168.65.1:46270 as ESP32_Client (p2, c1, k15, u'admin').
+1737667164: Client Telegraf-Consumer-sD28d disconnected.
+1737667164: mosquitto version 2.0.20 terminating
+1737667164: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737667164: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737731952: mosquitto version 2.0.20 starting
+1737731952: Config loaded from /mosquitto/config/mosquitto.conf.
+1737731952: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1737731952: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+1737731952: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+1737731952: Opening ipv4 listen socket on port 1885.
+1737731952: Opening ipv6 listen socket on port 1885.
+1737731952: mosquitto version 2.0.20 running
+1737731954: New connection from 172.18.0.5:59722 on port 1885.
+1737731954: New client connected from 172.18.0.5:59722 as Telegraf-Consumer-A8IJ4 (p2, c1, k60, u'admin').
+1737731955: New connection from 192.168.65.1:48960 on port 1885.
+1737731956: New client connected from 192.168.65.1:48960 as ESP32_Client (p2, c1, k15, u'admin').

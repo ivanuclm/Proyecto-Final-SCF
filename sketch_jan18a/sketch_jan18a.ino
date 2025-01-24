@@ -18,7 +18,7 @@ const char* password = "QF6oM3q7";
 #define TOPIC_HUM "/sensors/water_level"
 
 // Configuración del servidor MQTT
-const char* mqtt_server = "192.168.1.20";
+const char* mqtt_server = "192.168.1.19";
 const int mqtt_port = 1885;
 const char* mqtt_user = "admin";
 const char* mqtt_password = "admin";
