@@ -38,6 +38,10 @@ float phValue = 7;
 WiFiClient wifiClient;
 PubSubClient client(wifiClient);
 
+void IRAM_ATTR handleButtonPress() {
+    buttonPressed = true;
+}
+
 // Funcion para enviar valores a traves de MQTT
 void publishMQTT(char* topic, float value){
   if (!isnan(value)) {
@@ -113,14 +117,14 @@ void taskServo(void* parameter) {
   int pos = 0;  // Posición inicial del servo
 
   while (true) {
-    if (water_level < 90 && pos < 180) {
+    if (water_level < 90 && pos < 180) { // Si el nivel de agua es menor a 90% y la posición del servo es menor a 180 (cerrado)
       pos++;
-      servo.write(pos);
+      servo.write(pos); //vamos abriendo la valvula
       vTaskDelay(15 / portTICK_PERIOD_MS);
-    } else if (water_level > 95 && pos > 0) {
+    } else if (water_level > 95 && pos > 0) { // Si el nivel de agua es mayor a 95% y la posición del servo es mayor a 0 (abierto)
       pos--;
       servo.write(pos);
-      vTaskDelay(15 / portTICK_PERIOD_MS);
+      vTaskDelay(15 / portTICK_PERIOD_MS); //vamos cerrando la valvula
     }
   }
 }
@@ -173,6 +177,8 @@ void taskUltrasonido(void* parameter) {
 void setup() {
   Serial.begin(115200);
 
+  pinMode(BUTTON_PIN, INPUT_PULLUP);
+  attachInterrupt(digitalPinToInterrupt(BUTTON_PIN), handleButtonPress, FALLING);
   // Configurar sensor DHT y servo
   dhtSensor.setup(DHT_PIN, DHTesp::DHT11);
   servo.attach(servoPin, 500, 2400);
@@ -191,5 +197,9 @@ void setup() {
 }
 
 void loop() {
-  
+  if (buttonPressed) {
+        buttonPressed = false;
+        Serial.println("Sistema interrumpido");
+        // Acciones específicas
+    }
 }
