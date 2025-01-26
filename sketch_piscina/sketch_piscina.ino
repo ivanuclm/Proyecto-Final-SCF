@@ -5,11 +5,12 @@
 #include "DHTesp.h"
 #include <ArduinoJson.h>
 #include <NewPing.h>
+#include "credentials.h"
 
 
 // Pines y configuración
 #define DHT_PIN 15
-#define POTENTIOMETER_PIN 13
+#define POTENTIOMETER_PIN 35
 const int servoPin = 18;
 int potValue = 0;
 const int UltrasonicPin = 5;
@@ -20,20 +21,44 @@ NewPing sonar(UltrasonicPin, UltrasonicPin, MaxDistance);
 DHTesp dhtSensor;
 Servo servo;
 
-const char* ssid = "MiFibra-4B1E";
-const char* password = "QF6oM3q7";
+
 
 #define TOPIC_DHT "/sensors/dht11"
 #define TOPIC_US "/sensors/ultrasonic"
+#define TOPIC_POT "/sensors/potentiometer"
 
 // Configuración del servidor MQTT
 const char* mqtt_server = "192.168.1.19";
 const int mqtt_port = 1885;
 const char* mqtt_user = "admin";
 const char* mqtt_password = "admin";
+float water_level = 100;
+float phValue = 7;
 
 WiFiClient wifiClient;
 PubSubClient client(wifiClient);
+
+// Funcion para enviar valores a traves de MQTT
+void publishMQTT(char* topic, float value){
+  if (!isnan(value)) {
+      // Crear JSON
+      StaticJsonDocument<128> jsonDoc;
+      jsonDoc["value"] = value;
+
+      // Serializar JSON
+      char jsonBuffer[128];
+      serializeJson(jsonDoc, jsonBuffer);
+
+      // Publicar en MQTT
+      client.publish(topic, jsonBuffer);
+
+      // Mostrar en Monitor Serie
+      Serial.println("JSON Sent:");
+      Serial.println(jsonBuffer);
+    } else {
+      Serial.println("Error publishing MQTT.");
+    }
+}
 
 // Función de conexión WiFi
 void wifiConnect() {
@@ -78,46 +103,24 @@ void mqttConnect() {
 void taskDHT(void* parameter) {
   while (true) {
     TempAndHumidity data = dhtSensor.getTempAndHumidity();
-
-    if (!isnan(data.temperature) && !isnan(data.humidity)) {
-      // Crear JSON
-      StaticJsonDocument<128> jsonDoc;
-      jsonDoc["value"] = data.temperature;
-      
-
-      // Serializar JSON
-      char jsonBuffer[128];
-      serializeJson(jsonDoc, jsonBuffer);
-
-      // Publicar en MQTT
-      client.publish(TOPIC_DHT, jsonBuffer);
-
-      // Mostrar en Monitor Serie
-      Serial.println("JSON Sent:");
-      Serial.println(jsonBuffer);
-    } else {
-      Serial.println("Error reading DHT sensor.");
-    }
-
+    publishMQTT(TOPIC_DHT, data.temperature);
     vTaskDelay(3000 / portTICK_PERIOD_MS);
   }
 }
 
 // Tarea para controlar el servo motor
 void taskServo(void* parameter) {
-  int pos = 0;
+  int pos = 0;  // Posición inicial del servo
 
   while (true) {
-    // Mover el servo de 0 a 180 grados
-    for (pos = 0; pos <= 180; pos++) {
+    if (water_level < 90 && pos < 180) {
+      pos++;
       servo.write(pos);
-      vTaskDelay(15 / portTICK_PERIOD_MS);  // Pausa entre movimientos
-    }
-
-    // Mover el servo de 180 a 0 grados
-    for (pos = 180; pos >= 0; pos--) {
+      vTaskDelay(15 / portTICK_PERIOD_MS);
+    } else if (water_level > 95 && pos > 0) {
+      pos--;
       servo.write(pos);
-      vTaskDelay(15 / portTICK_PERIOD_MS);  // Pausa entre movimientos
+      vTaskDelay(15 / portTICK_PERIOD_MS);
     }
   }
 }
@@ -126,17 +129,11 @@ void taskServo(void* parameter) {
 void taskPotenph(void* parameter) {
   while (true) {
     int potValue = analogRead(POTENTIOMETER_PIN);
-    float voltage = (potValue / 4095.0) * 3.3;
-    int percentage = map(potValue, 0, 4095, 0, 100);
+    float phValue = ( potValue / 4095.0 ) * 14.0;
 
-    Serial.print("Raw Value: ");
-    Serial.print(potValue);
-    Serial.print(" | Voltage: ");
-    Serial.print(voltage);
-    Serial.print(" V | Percentage: ");
-    Serial.print(percentage);
-    Serial.println(" %");
-
+    Serial.print("Ph Actual: ");
+    Serial.println(phValue);
+    publishMQTT(TOPIC_POT, phValue);
     vTaskDelay(3000 / portTICK_PERIOD_MS);  // Leer cada 500ms
   }
 }
@@ -161,30 +158,15 @@ void taskWiFiMQTT(void* parameter) {
 
 void taskUltrasonido(void* parameter) {  
   while(true) {
-    float cm = sonar.ping_cm();
-    Serial.print(cm); // obtener el valor en cm (0 = fuera de rango)
-    Serial.println("cm");
-    vTaskDelay(3000 / portTICK_PERIOD_MS);
-
-    if (!isnan(cm)) {
-      // Crear JSON
-      StaticJsonDocument<128> jsonDoc;
-      jsonDoc["value"] = cm;
-      
-
-      // Serializar JSON
-      char jsonBuffer[128];
-      serializeJson(jsonDoc, jsonBuffer);
-
-      // Publicar en MQTT
-      client.publish(TOPIC_US, jsonBuffer);
-
-      // Mostrar en Monitor Serie
-      Serial.println("JSON Sent:");
-      Serial.println(jsonBuffer);
-    } else {
-      Serial.println("Error reading US sensor.");
+    float cm = sonar.ping_cm() - 2; // restamos la distancia minima que mide el sensor 
+    float pool_height = 2 * 100; // 2 metros a centimetros
+    water_level =  ((pool_height - cm) / pool_height) * 100; // calculamos capacidad actual
+    Serial.print(water_level); // obtener el valor en cm (0 = fuera de rango)
+    Serial.println("% water_level");
+    if (water_level > 0) {
+      publishMQTT(TOPIC_US, water_level);
     }
+    vTaskDelay(3000 / portTICK_PERIOD_MS);
   }
 }
 

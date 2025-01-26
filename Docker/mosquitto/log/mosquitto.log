@@ -4448,3 +4448,393 @@ To fix this, use `chmod 0700 /mosquitto/config/passwd`.
 1737749278: New client connected from 192.168.65.1:52127 as ESP32_Client (p2, c1, k15, u'admin').
 1737749279: New connection from 172.18.0.5:35628 on port 1885.
 1737749279: New client connected from 172.18.0.5:35628 as Telegraf-Consumer-kQj5r (p2, c1, k60, u'admin').
+1737750879: Client Telegraf-Consumer-kQj5r disconnected.
+1737750879: mosquitto version 2.0.20 terminating
+1737750879: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737750879: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737803049: mosquitto version 2.0.20 starting
+1737803049: Config loaded from /mosquitto/config/mosquitto.conf.
+1737803049: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1737803049: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+1737803049: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+1737803049: Opening ipv4 listen socket on port 1885.
+1737803049: Opening ipv6 listen socket on port 1885.
+1737803049: mosquitto version 2.0.20 running
+1737803050: New connection from 192.168.65.1:49501 on port 1885.
+1737803050: New client connected from 192.168.65.1:49501 as ESP32_Client (p2, c1, k15, u'admin').
+1737803052: New connection from 172.18.0.4:39334 on port 1885.
+1737803052: New client connected from 172.18.0.4:39334 as Telegraf-Consumer-d5yz6 (p2, c1, k60, u'admin').
+1737803151: Client ESP32_Client has exceeded timeout, disconnecting.
+1737803190: New connection from 192.168.65.1:62472 on port 1885.
+1737803190: New client connected from 192.168.65.1:62472 as ESP32_Client (p2, c1, k15, u'admin').
+1737803607: Client ESP32_Client has exceeded timeout, disconnecting.
+1737803644: New connection from 192.168.65.1:21083 on port 1885.
+1737803644: New client connected from 192.168.65.1:21083 as ESP32_Client (p2, c1, k15, u'admin').
+1737804207: Client ESP32_Client has exceeded timeout, disconnecting.
+1737804245: New connection from 192.168.65.1:41567 on port 1885.
+1737804245: New client connected from 192.168.65.1:41567 as ESP32_Client (p2, c1, k15, u'admin').
+1737804573: Client ESP32_Client has exceeded timeout, disconnecting.
+1737804614: New connection from 192.168.65.1:54898 on port 1885.
+1737804614: New client connected from 192.168.65.1:54898 as ESP32_Client (p2, c1, k15, u'admin').
+1737804777: Client ESP32_Client has exceeded timeout, disconnecting.
+1737804816: New connection from 192.168.65.1:21612 on port 1885.
+1737804816: New client connected from 192.168.65.1:21612 as ESP32_Client (p2, c1, k15, u'admin').
+1737804850: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737804850: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737805047: Client ESP32_Client has exceeded timeout, disconnecting.
+1737805086: New connection from 192.168.65.1:37180 on port 1885.
+1737805086: New client connected from 192.168.65.1:37180 as ESP32_Client (p2, c1, k15, u'admin').
+1737805611: Client ESP32_Client has exceeded timeout, disconnecting.
+1737805647: New connection from 192.168.65.1:63352 on port 1885.
+1737805647: New client connected from 192.168.65.1:63352 as ESP32_Client (p2, c1, k15, u'admin').
+1737805755: Client ESP32_Client has exceeded timeout, disconnecting.
+1737805793: New connection from 192.168.65.1:24740 on port 1885.
+1737805793: New client connected from 192.168.65.1:24740 as ESP32_Client (p2, c1, k15, u'admin').
+1737806039: Client ESP32_Client closed its connection.
+1737806079: New connection from 192.168.65.1:43997 on port 1885.
+1737806079: New client connected from 192.168.65.1:43997 as ESP32_Client (p2, c1, k15, u'admin').
+1737806651: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737806651: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737807495: Client ESP32_Client has exceeded timeout, disconnecting.
+1737807531: New connection from 192.168.65.1:46475 on port 1885.
+1737807531: New client connected from 192.168.65.1:46475 as ESP32_Client (p2, c1, k15, u'admin').
+1737807693: Client ESP32_Client has exceeded timeout, disconnecting.
+1737807732: New connection from 192.168.65.1:62735 on port 1885.
+1737807732: New client connected from 192.168.65.1:62735 as ESP32_Client (p2, c1, k15, u'admin').
+1737807921: Client ESP32_Client has exceeded timeout, disconnecting.
+1737807957: New connection from 192.168.65.1:65359 on port 1885.
+1737807957: New client connected from 192.168.65.1:65359 as ESP32_Client (p2, c1, k15, u'admin').
+1737808065: Client ESP32_Client has exceeded timeout, disconnecting.
+1737808102: New connection from 192.168.65.1:35317 on port 1885.
+1737808102: New client connected from 192.168.65.1:35317 as ESP32_Client (p2, c1, k15, u'admin').
+1737808353: Client ESP32_Client has exceeded timeout, disconnecting.
+1737808394: New connection from 192.168.65.1:52433 on port 1885.
+1737808394: New client connected from 192.168.65.1:52433 as ESP32_Client (p2, c1, k15, u'admin').
+1737808404: New connection from 192.168.65.1:60744 on port 1885.
+1737808404: Client ESP32_Client already connected, closing old connection.
+1737808404: New client connected from 192.168.65.1:60744 as ESP32_Client (p2, c1, k15, u'admin').
+1737808415: New connection from 192.168.65.1:20153 on port 1885.
+1737808415: Client ESP32_Client already connected, closing old connection.
+1737808415: New client connected from 192.168.65.1:20153 as ESP32_Client (p2, c1, k15, u'admin').
+1737808425: New connection from 192.168.65.1:32877 on port 1885.
+1737808425: Client ESP32_Client already connected, closing old connection.
+1737808425: New client connected from 192.168.65.1:32877 as ESP32_Client (p2, c1, k15, u'admin').
+1737808436: New connection from 192.168.65.1:55355 on port 1885.
+1737808436: Client ESP32_Client already connected, closing old connection.
+1737808436: New client connected from 192.168.65.1:55355 as ESP32_Client (p2, c1, k15, u'admin').
+1737808448: New connection from 192.168.65.1:65521 on port 1885.
+1737808448: Client ESP32_Client already connected, closing old connection.
+1737808448: New client connected from 192.168.65.1:65521 as ESP32_Client (p2, c1, k15, u'admin').
+1737808452: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737808452: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737808459: New connection from 192.168.65.1:44946 on port 1885.
+1737808459: Client ESP32_Client already connected, closing old connection.
+1737808459: New client connected from 192.168.65.1:44946 as ESP32_Client (p2, c1, k15, u'admin').
+1737808470: New connection from 192.168.65.1:30973 on port 1885.
+1737808470: Client ESP32_Client already connected, closing old connection.
+1737808470: New client connected from 192.168.65.1:30973 as ESP32_Client (p2, c1, k15, u'admin').
+1737808481: New connection from 192.168.65.1:62646 on port 1885.
+1737808481: Client ESP32_Client already connected, closing old connection.
+1737808481: New client connected from 192.168.65.1:62646 as ESP32_Client (p2, c1, k15, u'admin').
+1737808492: New connection from 192.168.65.1:53964 on port 1885.
+1737808492: Client ESP32_Client already connected, closing old connection.
+1737808492: New client connected from 192.168.65.1:53964 as ESP32_Client (p2, c1, k15, u'admin').
+1737808503: New connection from 192.168.65.1:40833 on port 1885.
+1737808503: Client ESP32_Client already connected, closing old connection.
+1737808503: New client connected from 192.168.65.1:40833 as ESP32_Client (p2, c1, k15, u'admin').
+1737808515: New connection from 192.168.65.1:45752 on port 1885.
+1737808515: Client ESP32_Client already connected, closing old connection.
+1737808515: New client connected from 192.168.65.1:45752 as ESP32_Client (p2, c1, k15, u'admin').
+1737808525: New connection from 192.168.65.1:50797 on port 1885.
+1737808525: Client ESP32_Client already connected, closing old connection.
+1737808525: New client connected from 192.168.65.1:50797 as ESP32_Client (p2, c1, k15, u'admin').
+1737808536: New connection from 192.168.65.1:36747 on port 1885.
+1737808536: Client ESP32_Client already connected, closing old connection.
+1737808536: New client connected from 192.168.65.1:36747 as ESP32_Client (p2, c1, k15, u'admin').
+1737808547: New connection from 192.168.65.1:56166 on port 1885.
+1737808547: Client ESP32_Client already connected, closing old connection.
+1737808547: New client connected from 192.168.65.1:56166 as ESP32_Client (p2, c1, k15, u'admin').
+1737808558: New connection from 192.168.65.1:39306 on port 1885.
+1737808558: Client ESP32_Client already connected, closing old connection.
+1737808558: New client connected from 192.168.65.1:39306 as ESP32_Client (p2, c1, k15, u'admin').
+1737808587: Client ESP32_Client has exceeded timeout, disconnecting.
+1737808631: New connection from 192.168.65.1:59628 on port 1885.
+1737808631: New client connected from 192.168.65.1:59628 as ESP32_Client (p2, c1, k15, u'admin').
+1737808644: New connection from 192.168.65.1:40495 on port 1885.
+1737808644: Client ESP32_Client already connected, closing old connection.
+1737808644: New client connected from 192.168.65.1:40495 as ESP32_Client (p2, c1, k15, u'admin').
+1737808658: New connection from 192.168.65.1:58846 on port 1885.
+1737808658: Client ESP32_Client already connected, closing old connection.
+1737808658: New client connected from 192.168.65.1:58846 as ESP32_Client (p2, c1, k15, u'admin').
+1737808671: New connection from 192.168.65.1:33120 on port 1885.
+1737808671: Client ESP32_Client already connected, closing old connection.
+1737808671: New client connected from 192.168.65.1:33120 as ESP32_Client (p2, c1, k15, u'admin').
+1737808685: New connection from 192.168.65.1:29563 on port 1885.
+1737808685: Client ESP32_Client already connected, closing old connection.
+1737808685: New client connected from 192.168.65.1:29563 as ESP32_Client (p2, c1, k15, u'admin').
+1737808699: New connection from 192.168.65.1:19179 on port 1885.
+1737808699: Client ESP32_Client already connected, closing old connection.
+1737808699: New client connected from 192.168.65.1:19179 as ESP32_Client (p2, c1, k15, u'admin').
+1737808705: New connection from 192.168.65.1:22684 on port 1885.
+1737808705: Client ESP32_Client already connected, closing old connection.
+1737808705: New client connected from 192.168.65.1:22684 as ESP32_Client (p2, c1, k15, u'admin').
+1737808718: New connection from 192.168.65.1:25359 on port 1885.
+1737808718: Client ESP32_Client already connected, closing old connection.
+1737808718: New client connected from 192.168.65.1:25359 as ESP32_Client (p2, c1, k15, u'admin').
+1737808742: Client ESP32_Client closed its connection.
+1737823896: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737823896: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737823896: Client Telegraf-Consumer-d5yz6 has exceeded timeout, disconnecting.
+1737823904: New connection from 172.18.0.4:56222 on port 1885.
+1737823904: New client connected from 172.18.0.4:56222 as Telegraf-Consumer-d5yz6 (p2, c1, k60, u'admin').
+1737824358: New connection from 192.168.65.1:47372 on port 1885.
+1737824358: New client connected from 192.168.65.1:47372 as ESP32_Client (p2, c1, k15, u'admin').
+1737824372: New connection from 192.168.65.1:58836 on port 1885.
+1737824372: Client ESP32_Client already connected, closing old connection.
+1737824372: New client connected from 192.168.65.1:58836 as ESP32_Client (p2, c1, k15, u'admin').
+1737824378: New connection from 192.168.65.1:48435 on port 1885.
+1737824378: Client ESP32_Client already connected, closing old connection.
+1737824378: New client connected from 192.168.65.1:48435 as ESP32_Client (p2, c1, k15, u'admin').
+1737824391: New connection from 192.168.65.1:38911 on port 1885.
+1737824391: Client ESP32_Client already connected, closing old connection.
+1737824391: New client connected from 192.168.65.1:38911 as ESP32_Client (p2, c1, k15, u'admin').
+1737824405: New connection from 192.168.65.1:46276 on port 1885.
+1737824405: Client ESP32_Client already connected, closing old connection.
+1737824405: New client connected from 192.168.65.1:46276 as ESP32_Client (p2, c1, k15, u'admin').
+1737824420: New connection from 192.168.65.1:51352 on port 1885.
+1737824420: Client ESP32_Client already connected, closing old connection.
+1737824420: New client connected from 192.168.65.1:51352 as ESP32_Client (p2, c1, k15, u'admin').
+1737824428: New connection from 192.168.65.1:62032 on port 1885.
+1737824428: Client ESP32_Client already connected, closing old connection.
+1737824428: New client connected from 192.168.65.1:62032 as ESP32_Client (p2, c1, k15, u'admin').
+1737824441: New connection from 192.168.65.1:58314 on port 1885.
+1737824441: Client ESP32_Client already connected, closing old connection.
+1737824441: New client connected from 192.168.65.1:58314 as ESP32_Client (p2, c1, k15, u'admin').
+1737824447: New connection from 192.168.65.1:63511 on port 1885.
+1737824447: Client ESP32_Client already connected, closing old connection.
+1737824447: New client connected from 192.168.65.1:63511 as ESP32_Client (p2, c1, k15, u'admin').
+1737824460: New connection from 192.168.65.1:30100 on port 1885.
+1737824460: Client ESP32_Client already connected, closing old connection.
+1737824460: New client connected from 192.168.65.1:30100 as ESP32_Client (p2, c1, k15, u'admin').
+1737824466: New connection from 192.168.65.1:56854 on port 1885.
+1737824466: Client ESP32_Client already connected, closing old connection.
+1737824466: New client connected from 192.168.65.1:56854 as ESP32_Client (p2, c1, k15, u'admin').
+1737824480: New connection from 192.168.65.1:43212 on port 1885.
+1737824480: Client ESP32_Client already connected, closing old connection.
+1737824480: New client connected from 192.168.65.1:43212 as ESP32_Client (p2, c1, k15, u'admin').
+1737824503: New connection from 192.168.65.1:60664 on port 1885.
+1737824503: Client ESP32_Client already connected, closing old connection.
+1737824503: New client connected from 192.168.65.1:60664 as ESP32_Client (p2, c1, k15, u'admin').
+1737824517: New connection from 192.168.65.1:16779 on port 1885.
+1737824517: Client ESP32_Client already connected, closing old connection.
+1737824517: New client connected from 192.168.65.1:16779 as ESP32_Client (p2, c1, k15, u'admin').
+1737824522: New connection from 192.168.65.1:39386 on port 1885.
+1737824522: Client ESP32_Client already connected, closing old connection.
+1737824522: New client connected from 192.168.65.1:39386 as ESP32_Client (p2, c1, k15, u'admin').
+1737824537: New connection from 192.168.65.1:59642 on port 1885.
+1737824537: Client ESP32_Client already connected, closing old connection.
+1737824537: New client connected from 192.168.65.1:59642 as ESP32_Client (p2, c1, k15, u'admin').
+1737824551: New connection from 192.168.65.1:53695 on port 1885.
+1737824551: Client ESP32_Client already connected, closing old connection.
+1737824551: New client connected from 192.168.65.1:53695 as ESP32_Client (p2, c1, k15, u'admin').
+1737824565: New connection from 192.168.65.1:40253 on port 1885.
+1737824565: Client ESP32_Client already connected, closing old connection.
+1737824565: New client connected from 192.168.65.1:40253 as ESP32_Client (p2, c1, k15, u'admin').
+1737824578: New connection from 192.168.65.1:48643 on port 1885.
+1737824578: Client ESP32_Client already connected, closing old connection.
+1737824578: New client connected from 192.168.65.1:48643 as ESP32_Client (p2, c1, k15, u'admin').
+1737824584: New connection from 192.168.65.1:37121 on port 1885.
+1737824584: Client ESP32_Client already connected, closing old connection.
+1737824584: New client connected from 192.168.65.1:37121 as ESP32_Client (p2, c1, k15, u'admin').
+1737824599: New connection from 192.168.65.1:44276 on port 1885.
+1737824599: Client ESP32_Client already connected, closing old connection.
+1737824599: New client connected from 192.168.65.1:44276 as ESP32_Client (p2, c1, k15, u'admin').
+1737824613: New connection from 192.168.65.1:24714 on port 1885.
+1737824613: Client ESP32_Client already connected, closing old connection.
+1737824613: New client connected from 192.168.65.1:24714 as ESP32_Client (p2, c1, k15, u'admin').
+1737824626: New connection from 192.168.65.1:31317 on port 1885.
+1737824626: Client ESP32_Client already connected, closing old connection.
+1737824626: New client connected from 192.168.65.1:31317 as ESP32_Client (p2, c1, k15, u'admin').
+1737824640: New connection from 192.168.65.1:62885 on port 1885.
+1737824640: Client ESP32_Client already connected, closing old connection.
+1737824640: New client connected from 192.168.65.1:62885 as ESP32_Client (p2, c1, k15, u'admin').
+1737824646: Client ESP32_Client disconnected due to protocol error.
+1737824647: New connection from 192.168.65.1:19040 on port 1885.
+1737824647: New client connected from 192.168.65.1:19040 as ESP32_Client (p2, c1, k15, u'admin').
+1737824676: Client ESP32_Client has exceeded timeout, disconnecting.
+1737824713: New connection from 192.168.65.1:52029 on port 1885.
+1737824713: New client connected from 192.168.65.1:52029 as ESP32_Client (p2, c1, k15, u'admin').
+1737824856: Client ESP32_Client has exceeded timeout, disconnecting.
+1737825018: New connection from 192.168.65.1:38196 on port 1885.
+1737825018: New client connected from 192.168.65.1:38196 as ESP32_Client (p2, c1, k15, u'admin').
+1737825072: Client ESP32_Client has exceeded timeout, disconnecting.
+1737825111: New connection from 192.168.65.1:61390 on port 1885.
+1737825111: New client connected from 192.168.65.1:61390 as ESP32_Client (p2, c1, k15, u'admin').
+1737825525: New connection from 192.168.65.1:30670 on port 1885.
+1737825525: Client ESP32_Client already connected, closing old connection.
+1737825525: New client connected from 192.168.65.1:30670 as ESP32_Client (p2, c1, k15, u'admin').
+1737825684: Client ESP32_Client has exceeded timeout, disconnecting.
+1737825697: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737825697: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737825724: New connection from 192.168.65.1:17641 on port 1885.
+1737825724: New client connected from 192.168.65.1:17641 as ESP32_Client (p2, c1, k15, u'admin').
+1737825972: Client ESP32_Client has exceeded timeout, disconnecting.
+1737826009: New connection from 192.168.65.1:21566 on port 1885.
+1737826009: New client connected from 192.168.65.1:21566 as ESP32_Client (p2, c1, k15, u'admin').
+1737826565: Client ESP32_Client closed its connection.
+1737826735: Client Telegraf-Consumer-d5yz6 disconnected.
+1737826735: mosquitto version 2.0.20 terminating
+1737826735: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737826735: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737889667: mosquitto version 2.0.20 starting
+1737889667: Config loaded from /mosquitto/config/mosquitto.conf.
+1737889667: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1737889667: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+1737889667: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+1737889667: Opening ipv4 listen socket on port 1885.
+1737889667: Opening ipv6 listen socket on port 1885.
+1737889667: mosquitto version 2.0.20 running
+1737889671: New connection from 172.18.0.4:57778 on port 1885.
+1737889671: New client connected from 172.18.0.4:57778 as Telegraf-Consumer-XnTG4 (p2, c1, k60, u'admin').
+1737889671: New connection from 192.168.65.1:16017 on port 1885.
+1737889671: New client connected from 192.168.65.1:16017 as ESP32_Client (p2, c1, k15, u'admin').
+1737889775: Client ESP32_Client has exceeded timeout, disconnecting.
+1737889815: New connection from 192.168.65.1:53777 on port 1885.
+1737889815: New client connected from 192.168.65.1:53777 as ESP32_Client (p2, c1, k15, u'admin').
+1737890069: Client ESP32_Client has exceeded timeout, disconnecting.
+1737890104: New connection from 192.168.65.1:45854 on port 1885.
+1737890104: New client connected from 192.168.65.1:45854 as ESP32_Client (p2, c1, k15, u'admin').
+1737890407: Client Telegraf-Consumer-XnTG4 disconnected.
+1737890407: mosquitto version 2.0.20 terminating
+1737890407: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737890407: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737890411: mosquitto version 2.0.20 starting
+1737890411: Config loaded from /mosquitto/config/mosquitto.conf.
+1737890411: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1737890411: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+1737890411: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+1737890411: Opening ipv4 listen socket on port 1885.
+1737890411: Opening ipv6 listen socket on port 1885.
+1737890411: mosquitto version 2.0.20 running
+1737890412: New connection from 172.18.0.5:58100 on port 1885.
+1737890412: New client connected from 172.18.0.5:58100 as Telegraf-Consumer-FXNVO (p2, c1, k60, u'admin').
+1737890413: New connection from 192.168.65.1:48253 on port 1885.
+1737890413: New client connected from 192.168.65.1:48253 as ESP32_Client (p2, c1, k15, u'admin').
+1737890440: Client ESP32_Client closed its connection.
+1737890479: New connection from 192.168.65.1:23940 on port 1885.
+1737890479: New client connected from 192.168.65.1:23940 as ESP32_Client (p2, c1, k15, u'admin').
+1737892212: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737892212: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737892427: Client ESP32_Client has exceeded timeout, disconnecting.
+1737892466: New connection from 192.168.65.1:20571 on port 1885.
+1737892466: New client connected from 192.168.65.1:20571 as ESP32_Client (p2, c1, k15, u'admin').
+1737893123: Client ESP32_Client has exceeded timeout, disconnecting.
+1737893163: New connection from 192.168.65.1:35312 on port 1885.
+1737893163: New client connected from 192.168.65.1:35312 as ESP32_Client (p2, c1, k15, u'admin').
+1737893581: Bad client ESP32_Client sending multiple CONNECT messages.
+1737893581: Client ESP32_Client disconnected due to protocol error.
+1737893581: New connection from 192.168.65.1:55261 on port 1885.
+1737893581: New client connected from 192.168.65.1:55261 as ESP32_Client (p2, c1, k15, u'admin').
+1737893596: Client Telegraf-Consumer-FXNVO disconnected.
+1737893596: mosquitto version 2.0.20 terminating
+1737893596: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737893596: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737893603: mosquitto version 2.0.20 starting
+1737893603: Config loaded from /mosquitto/config/mosquitto.conf.
+1737893603: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1737893603: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+1737893603: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+1737893603: Opening ipv4 listen socket on port 1885.
+1737893603: Opening ipv6 listen socket on port 1885.
+1737893603: mosquitto version 2.0.20 running
+1737893603: New connection from 192.168.65.1:38223 on port 1885.
+1737893603: New client connected from 192.168.65.1:38223 as ESP32_Client (p2, c1, k15, u'admin').
+1737893605: New connection from 172.18.0.5:52026 on port 1885.
+1737893605: New client connected from 172.18.0.5:52026 as Telegraf-Consumer-Iqlu0 (p2, c1, k60, u'admin').
+1737894113: Client ESP32_Client disconnected due to protocol error.
+1737894113: New connection from 192.168.65.1:44644 on port 1885.
+1737894113: New client connected from 192.168.65.1:44644 as ESP32_Client (p2, c1, k15, u'admin').
+1737894128: Client ESP32_Client disconnected due to protocol error.
+1737894128: New connection from 192.168.65.1:24984 on port 1885.
+1737894128: New client connected from 192.168.65.1:24984 as ESP32_Client (p2, c1, k15, u'admin').
+1737894176: Client ESP32_Client disconnected due to malformed packet.
+1737894177: New connection from 192.168.65.1:29106 on port 1885.
+1737894177: New client connected from 192.168.65.1:29106 as ESP32_Client (p2, c1, k15, u'admin').
+1737894197: Client ESP32_Client disconnected due to malformed packet.
+1737894198: New connection from 192.168.65.1:48462 on port 1885.
+1737894198: New client connected from 192.168.65.1:48462 as ESP32_Client (p2, c1, k15, u'admin').
+1737895275: Client ESP32_Client disconnected due to malformed packet.
+1737895277: New connection from 192.168.65.1:29037 on port 1885.
+1737895277: New client connected from 192.168.65.1:29037 as ESP32_Client (p2, c1, k15, u'admin').
+1737895404: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737895404: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737895729: Client ESP32_Client disconnected due to protocol error.
+1737895729: New connection from 192.168.65.1:49892 on port 1885.
+1737895729: New client connected from 192.168.65.1:49892 as ESP32_Client (p2, c1, k15, u'admin').
+1737896159: Client ESP32_Client disconnected due to malformed packet.
+1737896161: New connection from 192.168.65.1:45790 on port 1885.
+1737896161: New client connected from 192.168.65.1:45790 as ESP32_Client (p2, c1, k15, u'admin').
+1737896936: Client ESP32_Client disconnected due to malformed packet.
+1737896936: New connection from 192.168.65.1:60674 on port 1885.
+1737896936: New client connected from 192.168.65.1:60674 as ESP32_Client (p2, c1, k15, u'admin').
+1737896952: Client ESP32_Client disconnected due to malformed packet.
+1737896953: New connection from 192.168.65.1:31572 on port 1885.
+1737896953: New client connected from 192.168.65.1:31572 as ESP32_Client (p2, c1, k15, u'admin').
+1737896982: Client ESP32_Client disconnected due to malformed packet.
+1737896983: New connection from 192.168.65.1:55397 on port 1885.
+1737896983: New client connected from 192.168.65.1:55397 as ESP32_Client (p2, c1, k15, u'admin').
+1737897045: Client ESP32_Client disconnected due to malformed packet.
+1737897047: New connection from 192.168.65.1:55715 on port 1885.
+1737897047: New client connected from 192.168.65.1:55715 as ESP32_Client (p2, c1, k15, u'admin').
+1737897205: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737897205: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737897976: Bad client ESP32_Client sending multiple CONNECT messages.
+1737897976: Client ESP32_Client disconnected due to protocol error.
+1737897976: New connection from 192.168.65.1:28381 on port 1885.
+1737897976: New client connected from 192.168.65.1:28381 as ESP32_Client (p2, c1, k15, u'admin').
+1737899006: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737899006: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737900218: Invalid QoS in PUBLISH from ESP32_Client, disconnecting.
+1737900218: Client ESP32_Client disconnected due to malformed packet.
+1737900221: New connection from 192.168.65.1:36399 on port 1885.
+1737900221: New client connected from 192.168.65.1:36399 as ESP32_Client (p2, c1, k15, u'admin').
+1737900239: Invalid QoS in PUBLISH from ESP32_Client, disconnecting.
+1737900239: Client ESP32_Client disconnected due to malformed packet.
+1737900240: New connection from 192.168.65.1:28779 on port 1885.
+1737900240: New client connected from 192.168.65.1:28779 as ESP32_Client (p2, c1, k15, u'admin').
+1737900254: New connection from 192.168.65.1:55759 on port 1885.
+1737900254: Client ESP32_Client already connected, closing old connection.
+1737900254: New client connected from 192.168.65.1:55759 as ESP32_Client (p2, c1, k15, u'admin').
+1737900807: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737900807: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1737901168: Client ESP32_Client disconnected due to malformed packet.
+1737901169: New connection from 192.168.65.1:23949 on port 1885.
+1737901169: New client connected from 192.168.65.1:23949 as ESP32_Client (p2, c1, k15, u'admin').
+1737902159: New connection from 192.168.65.1:47596 on port 1885.
+1737902159: Client ESP32_Client already connected, closing old connection.
+1737902159: New client connected from 192.168.65.1:47596 as ESP32_Client (p2, c1, k15, u'admin').
+1737902162: New connection from 192.168.65.1:40253 on port 1885.
+1737902162: Client ESP32_Client already connected, closing old connection.
+1737902162: New client connected from 192.168.65.1:40253 as ESP32_Client (p2, c1, k15, u'admin').
+1737902445: Client ESP32_Client closed its connection.
+1737902608: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1737902608: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
